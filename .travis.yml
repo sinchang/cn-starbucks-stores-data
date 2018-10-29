@@ -7,3 +7,4 @@ script:
   - npm run lint
   - npm run build
   - npm run check
+  - bash <(curl -X POST -d '' https://api.netlify.com/build_hooks/5bd6dc68792f8956581e1d61)
