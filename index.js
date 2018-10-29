@@ -30,7 +30,7 @@ axios
       const city = item.address.city
       const provice = searchProvince(city)
       if (!provice) {
-        console.log(`${city} 没找到对应身份`)
+        console.log(`${city} 没找到对应省份`)
         return
       }
       if (!result[provice]) {
