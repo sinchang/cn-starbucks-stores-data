@@ -66,7 +66,7 @@
       }
     }
   </style>
-  <p class="title">中国星巴克门店统计(总数：3725，包括港澳)</p>
+  <p class="title">中国星巴克门店统计(总数：<span id="total"></span>，包括港澳)</p>
   <div id="mountNode"></div>
   <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g2-3.2.8-beta.5/dist/g2.min.js"></script>
   <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.data-set-0.8.9/dist/data-set.min.js"></script>
@@ -77,10 +77,11 @@
       .then(res => {
         return res.json()
       }).then(data => {
-        for (let k in data) {
+        document.getElementById('total').innerHTML = data.total
+        for (let k in data.data) {
           arr.push({
             province: k,
-            count: data[k].count
+            count: data.data[k].count
           })
         }
 

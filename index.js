@@ -12,6 +12,15 @@ const searchProvince = city => {
   if (FixedCity.indexOf(city) > -1) return city
   if (city === 'Hong Kong') return '香港'
   if (city === 'Macau') return '澳門'
+  if (city === 'SHANGHAI') return '上海市'
+  if (city === 'Hangzhou' || city === 'Jinhua') return '浙江省'
+  if (city === '襄樊市') return '湖北省'
+  if (city === 'Guangzhou') return '广东省'
+  if (city === 'Tin Shui Wai') return '黑龙江省'
+  if (city === '延吉市') return '吉林省'
+  if (city === 'Chengdu City' || city === '西昌市') return '四川省'
+  if (city === '大理市') return '云南省'
+
   for (let k in pcs) {
     for (let x of pcs[k]) {
       if (x.indexOf(city) > -1) {
@@ -41,7 +50,10 @@ axios
       }
     })
 
-    fs.writeFileSync('./format.json', JSON.stringify(result))
+    fs.writeFileSync('./format.json', JSON.stringify({
+      data: result,
+      total: res.data.meta.total
+    }))
   })
   .catch(err => {
     console.log(err)
