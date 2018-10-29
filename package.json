@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard"
   },
   "keywords": [],
   "author": "sinchang <sinchangwen@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
   }
 }
