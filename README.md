@@ -1,5 +1,9 @@
 # CN STARBUCKS STORE DATA
 
+## Latest Updated
+
+2018-10-29
+
 ## Web Script
 
 ```
