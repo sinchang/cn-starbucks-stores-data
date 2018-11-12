@@ -35,7 +35,7 @@ axios
   .get(APIURL)
   .then(res => {
     const data = res.data.data
-
+    fs.writeFileSync('./data.json', JSON.stringify(res.data))
     data.forEach(item => {
       const city = item.address.city
       const provice = searchProvince(city)
