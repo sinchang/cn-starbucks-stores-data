@@ -42,7 +42,6 @@ axios
       const provice = searchProvince(city)
       if (!provice) {
         throw new Error(`${city} 没找到对应省份`)
-        return
       }
       if (!result[provice]) {
         result[provice] = {}
