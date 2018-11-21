@@ -21,6 +21,7 @@ const searchProvince = city => {
   if (city === '延吉市') return '吉林省'
   if (city === 'Chengdu City' || city === '西昌市') return '四川省'
   if (city === '大理市') return '云南省'
+  if (city === 'Jinan') return '山东省'
 
   for (let k in pcs) {
     for (let x of pcs[k]) {
@@ -40,7 +41,7 @@ axios
       const city = item.address.city
       const provice = searchProvince(city)
       if (!provice) {
-        console.log(`${city} 没找到对应省份`)
+        throw new Error(`${city} 没找到对应省份`)
         return
       }
       if (!result[provice]) {
