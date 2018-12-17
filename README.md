@@ -1,9 +1,5 @@
 # CN STARBUCKS STORE DATA [![Build Status](https://travis-ci.com/sinchang/cn-starbucks-stores-data.svg?branch=master)](https://travis-ci.com/sinchang/cn-starbucks-stores-data)
 
-## Latest Updated
-
-2018-12-14
-
 ## Web Script
 
 ```
