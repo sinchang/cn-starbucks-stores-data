@@ -6,7 +6,7 @@ changes=$(git diff format.json)
 if [ -n "$changes" ]; then
   git add .
   now=$(date +"%Y-%m-%d")
-  git commit -m "update $now"
+  git commit -m "Update $now"
   git push
 else
   echo "... No changes found"
