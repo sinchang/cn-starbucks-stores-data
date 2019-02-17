@@ -16,7 +16,7 @@ const searchProvince = city => {
   if (city === 'SHANGHAI') return '上海市'
   if (city === 'Hangzhou' || city === 'Jinhua' || city === 'Huzhou') return '浙江省'
   if (city === '襄樊市') return '湖北省'
-  if (city === 'Guangzhou') return '广东省'
+  if (city === 'Guangzhou' || city === 'Shenzhen') return '广东省'
   if (city === 'Tin Shui Wai') return '黑龙江省'
   if (city === '延吉市') return '吉林省'
   if (city === 'Chengdu City' || city === '西昌市' || city === 'Luzhou' || city === 'Chengdu') return '四川省'
