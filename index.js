@@ -4,6 +4,7 @@ const axios = require('axios')
 const fs = require('fs')
 const pcs = require('./pc.json')
 const prettier = require('prettier')
+const _ = require('lodash')
 
 const APIURL =
   'https://www.starbucks.com.cn/api/stores/nearby?lat=31.231706&lon=121.472644&limit=10000&locale=ZH&features=&radius=10000000000'
@@ -58,7 +59,12 @@ axios
       './format.json',
       prettier.format(
         JSON.stringify({
-          data: result,
+          data: Object.keys(result).map(key => {
+            return {
+              name: key,
+              count: result[key].count
+            }
+          }).sort((a ,b) => b.count - a.count),
           total: res.data.meta.total
         }),
         { parser: 'json' }
