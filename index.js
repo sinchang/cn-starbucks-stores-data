@@ -13,10 +13,10 @@ const searchProvince = city => {
   if (FixedCity.indexOf(city) > -1) return city
   if (city === 'Hong Kong') return '香港'
   if (city === 'Macau') return '澳門'
-  if (city === 'SHANGHAI') return '上海市'
+  if (city === 'SHANGHAI' || city === 'Shanghai') return '上海市'
   if (city === 'Beijing') return '北京市'
-  if (city === 'Yangzhou') return '江苏省'
-  if (city === 'Hangzhou' || city === 'Jinhua' || city === 'Huzhou' || city === 'TBD') return '浙江省'
+  if (city === 'Yangzhou' || city === 'Suzhou' || city === 'Nantong' || city === 'Wuxi' || city === 'Nanjing') return '江苏省'
+  if (city === 'Hangzhou' || city === 'Jinhua' || city === 'Huzhou' || city === 'TBD' || city === 'Ningbo') return '浙江省'
   if (city === '襄樊市') return '湖北省'
   if (city === 'Guangzhou' || city === 'Shenzhen') return '广东省'
   if (city === 'Tin Shui Wai') return '黑龙江省'
