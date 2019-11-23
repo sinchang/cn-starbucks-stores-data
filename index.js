@@ -17,14 +17,15 @@ const searchProvince = city => {
   if (city === 'Beijing') return '北京市'
   if (city === 'Yangzhou' || city === 'Suzhou' || city === 'Nantong' || city === 'Wuxi' || city === 'Nanjing') return '江苏省'
   if (city === 'Hangzhou' || city === 'Jinhua' || city === 'Huzhou' || city === 'TBD' || city === 'Ningbo') return '浙江省'
-  if (city === '襄樊市') return '湖北省'
+  if (city === '襄樊市' || city === 'Wuhan') return '湖北省'
   if (city === 'Guangzhou' || city === 'Shenzhen') return '广东省'
   if (city === 'Tin Shui Wai') return '黑龙江省'
   if (city === '延吉市') return '吉林省'
   if (city === 'Chengdu City' || city === '西昌市' || city === 'Luzhou' || city === 'Chengdu') return '四川省'
-  if (city === '大理市') return '云南省'
+  if (city === '大理市' || city === '景洪市') return '云南省'
   if (city === 'Jinan') return '山东省'
   if (city === 'Chongqing') return '重庆市'
+  if (city === 'Anqing') return '安徽省'
 
   for (let k in pcs) {
     for (let x of pcs[k]) {
