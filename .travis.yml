@@ -5,6 +5,3 @@ node_js:
 
 script:
   - npm run lint
-
-after_success:
-  - sh ./travis-push.sh
