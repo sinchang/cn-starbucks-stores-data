@@ -16,9 +16,9 @@ jobs:
         with:
           node-version: "12.x"
       - run: git checkout json-update || true
-      - run: npm install
-      - run: npm run build
-      - run: npm run check
+      - run: yarn
+      - run: yarn build
+      - run: yarn check
       - name: Create Pull Request
         uses: gr2m/create-or-update-pull-request-action@v1.x
         env:
