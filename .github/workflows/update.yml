@@ -10,8 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
-      with:
-        node-version: 10.x
+        with:
+          node-version: 10.x
       - run: npm run build && npm run check
       - uses: gr2m/create-or-update-pull-request-action@v1.x
         env:
