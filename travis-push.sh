@@ -2,8 +2,8 @@
 npm run build
 npm run check
 
-git config --global user.email "travis@travis-ci.org"
-git config --global user.name "Travis CI"
+git config --global user.email "sinchangwen@gmail.com"
+git config --global user.name "sinchang"
 
 echo ========== CHECKING FOR CHANGES ========
 changes=$(git diff format.json)
