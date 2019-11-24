@@ -3,9 +3,6 @@ on:
   schedule:
     # https://crontab.guru/every-night-at-midnight
     - cron: "0 0 * * *"
-  push:
-    branches:
-      - travis
 
 jobs:
   update_data:
