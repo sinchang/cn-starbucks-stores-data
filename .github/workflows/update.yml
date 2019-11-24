@@ -1,4 +1,4 @@
-Name: Nightly update Starbucks store data
+name: Nightly update Starbucks store data
 on:
   schedule:
     # https://crontab.guru/every-night-at-midnight
