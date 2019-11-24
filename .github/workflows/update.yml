@@ -1,0 +1,24 @@
+Name: Nightly update
+on:
+  schedule:
+    # https://crontab.guru/every-night-at-midnight
+    - cron: "0 0 * * *"
+
+jobs:
+  update_data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+      with:
+        node-version: 10.x
+      - run: npm run build && npm run check
+      - uses: gr2m/create-or-update-pull-request-action@v1.x
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          title: "Update Starbucks store data"
+          branch: "patch-1"
+          path: "./"
+          commit-message: "Update Starbucks store data"
+          author: "sinchang<sinchangwen@gmail.com>"
