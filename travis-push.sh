@@ -14,7 +14,7 @@ if [ -n "$changes" ]; then
   git commit -m "Update $now"
   git remote rm origin
   git remote add origin https://sinchang:${GITHUB_TOKEN}@github.com/sinchang/cn-starbucks-stores-data.git > /dev/null 2>&1
-  git push origin master --quiet
+  git push origin master
 else
   echo "... No changes found"
 fi
