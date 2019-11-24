@@ -5,7 +5,7 @@ npm run check
 git config --global user.email "sinchangwen@gmail.com"
 git config --global user.name "sinchang"
 
-echo ========== CHECKING FOR CHANGES ========
+echo ========== CHECKING FOR CHANGES =========
 changes=$(git diff format.json)
 if [ -n "$changes" ]; then
   now=$(date +"%Y-%m-%d")
