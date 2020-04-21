@@ -10,7 +10,7 @@
     { "name": "山东省", "count": 113 },
     { "name": "天津市", "count": 110 },
     { "name": "陕西省", "count": 97 },
-    { "name": "重庆市", "count": 90 },
+    { "name": "重庆市", "count": 91 },
     { "name": "辽宁省", "count": 89 },
     { "name": "湖南省", "count": 63 },
     { "name": "河北省", "count": 50 },
@@ -30,5 +30,5 @@
     { "name": "宁夏回族自治区", "count": 4 },
     { "name": "青海省", "count": 3 }
   ],
-  "total": 4239
+  "total": 4240
 }
