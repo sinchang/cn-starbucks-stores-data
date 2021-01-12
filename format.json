@@ -2,7 +2,7 @@
   "data": [
     { "name": "上海市", "count": 834 },
     { "name": "广东省", "count": 681 },
-    { "name": "浙江省", "count": 677 },
+    { "name": "浙江省", "count": 678 },
     { "name": "江苏省", "count": 656 },
     { "name": "北京市", "count": 392 },
     { "name": "四川省", "count": 204 },
@@ -30,5 +30,5 @@
     { "name": "宁夏回族自治区", "count": 7 },
     { "name": "青海省", "count": 5 }
   ],
-  "total": 4864
+  "total": 4865
 }
