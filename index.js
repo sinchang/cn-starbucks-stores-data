@@ -26,6 +26,7 @@ const searchProvince = city => {
   if (city === 'Jinan') return '山东省'
   if (city === 'Chongqing') return '重庆市'
   if (city === 'Anqing') return '安徽省'
+  if (city === '海南省') return '海南省'
 
   for (let k in pcs) {
     for (let x of pcs[k]) {
