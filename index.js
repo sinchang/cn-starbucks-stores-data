@@ -28,8 +28,8 @@ const searchProvince = city => {
   if (city === 'Anqing') return '安徽省'
   if (city === '海南省') return '海南省'
 
-  for (let k in pcs) {
-    for (let x of pcs[k]) {
+  for (const k in pcs) {
+    for (const x of pcs[k]) {
       if (x.indexOf(city) > -1) {
         return k
       }
