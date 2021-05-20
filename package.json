@@ -9,6 +9,9 @@
     "check": "node check.js",
     "db": "node db.js"
   },
+  "engines": {
+    "node": ">14"
+  },
   "keywords": [],
   "author": "sinchang <sinchangwen@gmail.com>",
   "license": "MIT",
