@@ -16,6 +16,7 @@ jobs:
       - run: yarn
       - run: yarn build
       - run: yarn check
+      - run: yarn db
       - name: Create Pull Request
         uses: gr2m/create-or-update-pull-request-action@v1.x
         env:
