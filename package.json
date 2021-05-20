@@ -6,14 +6,20 @@
   "scripts": {
     "lint": "standard",
     "build": "node index.js",
-    "check": "node check.js"
+    "check": "node check.js",
+    "db": "node db.js"
+  },
+  "engines": {
+    "node": "14"
   },
   "keywords": [],
   "author": "sinchang <sinchangwen@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
-    "prettier": "^2.2.1"
+    "knex": "^0.95.6",
+    "prettier": "^2.2.1",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "standard": "^16.0.3"
