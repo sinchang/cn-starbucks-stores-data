@@ -15,7 +15,7 @@ const provinces = json.data;
   try {
     for (let i = 0; i < provinces.length; i++) {
       const province = provinces[i]
-      
+
       const item = {
         province: province.name,
         date: knex.fn.now(),
