@@ -12,7 +12,7 @@
     { "name": "天津市", "count": 128 },
     { "name": "陕西省", "count": 110 },
     { "name": "重庆市", "count": 109 },
-    { "name": "辽宁省", "count": 97 },
+    { "name": "辽宁省", "count": 98 },
     { "name": "湖南省", "count": 75 },
     { "name": "河北省", "count": 71 },
     { "name": "安徽省", "count": 56 },
@@ -25,10 +25,10 @@
     { "name": "黑龙江省", "count": 30 },
     { "name": "山西省", "count": 28 },
     { "name": "贵州省", "count": 27 },
-    { "name": "内蒙古自治区", "count": 22 },
+    { "name": "内蒙古自治区", "count": 23 },
     { "name": "甘肃省", "count": 11 },
     { "name": "宁夏回族自治区", "count": 7 },
     { "name": "青海省", "count": 5 }
   ],
-  "total": 5084
+  "total": 5086
 }
