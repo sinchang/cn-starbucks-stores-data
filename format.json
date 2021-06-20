@@ -25,10 +25,10 @@
     { "name": "黑龙江省", "count": 30 },
     { "name": "山西省", "count": 28 },
     { "name": "贵州省", "count": 27 },
-    { "name": "内蒙古自治区", "count": 23 },
+    { "name": "内蒙古自治区", "count": 24 },
     { "name": "甘肃省", "count": 11 },
     { "name": "宁夏回族自治区", "count": 7 },
     { "name": "青海省", "count": 5 }
   ],
-  "total": 5100
+  "total": 5101
 }
