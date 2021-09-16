@@ -15,7 +15,7 @@
     { "name": "辽宁省", "count": 101 },
     { "name": "湖南省", "count": 79 },
     { "name": "河北省", "count": 73 },
-    { "name": "安徽省", "count": 61 },
+    { "name": "安徽省", "count": 62 },
     { "name": "河南省", "count": 58 },
     { "name": "广西壮族自治区", "count": 58 },
     { "name": "云南省", "count": 52 },
@@ -24,11 +24,11 @@
     { "name": "海南省", "count": 32 },
     { "name": "黑龙江省", "count": 30 },
     { "name": "山西省", "count": 29 },
-    { "name": "贵州省", "count": 26 },
+    { "name": "贵州省", "count": 27 },
     { "name": "内蒙古自治区", "count": 25 },
     { "name": "甘肃省", "count": 11 },
     { "name": "宁夏回族自治区", "count": 7 },
     { "name": "青海省", "count": 5 }
   ],
-  "total": 5247
+  "total": 5249
 }
