@@ -1,6 +1,6 @@
 {
   "data": [
-    { "name": "上海市", "count": 927 },
+    { "name": "上海市", "count": 928 },
     { "name": "浙江省", "count": 770 },
     { "name": "广东省", "count": 764 },
     { "name": "江苏省", "count": 719 },
@@ -9,7 +9,7 @@
     { "name": "湖北省", "count": 177 },
     { "name": "福建省", "count": 164 },
     { "name": "山东省", "count": 147 },
-    { "name": "天津市", "count": 141 },
+    { "name": "天津市", "count": 142 },
     { "name": "陕西省", "count": 120 },
     { "name": "重庆市", "count": 116 },
     { "name": "辽宁省", "count": 105 },
@@ -22,14 +22,14 @@
     { "name": "吉林省", "count": 38 },
     { "name": "江西省", "count": 36 },
     { "name": "海南省", "count": 36 },
-    { "name": "贵州省", "count": 31 },
+    { "name": "贵州省", "count": 32 },
     { "name": "黑龙江省", "count": 30 },
     { "name": "山西省", "count": 29 },
-    { "name": "内蒙古自治区", "count": 27 },
+    { "name": "内蒙古自治区", "count": 28 },
     { "name": "甘肃省", "count": 13 },
     { "name": "宁夏回族自治区", "count": 7 },
     { "name": "青海省", "count": 5 },
     { "name": "新疆维吾尔自治区", "count": 1 }
   ],
-  "total": 5470
+  "total": 5474
 }
