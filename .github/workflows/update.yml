@@ -26,4 +26,4 @@ jobs:
           branch: "json-update"
           path: "./"
           commit-message: "Update Starbucks store data"
-          author: "sinchang<sinchangwen@gmail.com>"
+          author: "GitHub Action<support@github.com>"
