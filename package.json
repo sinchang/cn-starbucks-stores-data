@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.26.1",
-    "knex": "^1.0.4",
+    "knex": "^0.95.15",
     "prettier": "^2.6.0",
     "sqlite3": "^5.0.2"
   },
