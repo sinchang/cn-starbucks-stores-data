@@ -13,7 +13,7 @@
 ## API
 
 ```
-https://www.starbucks.com.cn/api/stores/nearby?lat=31.231706&lon=121.472644&limit=1000&locale=ZH&features=&radius=10000000000
+https://www.starbucks.com.cn/api/stores
 ```
 
 ## LICENSE
