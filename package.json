@@ -10,7 +10,7 @@
     "db": "node db.js"
   },
   "engines": {
-    "node": "14"
+    "node": "16"
   },
   "keywords": [],
   "author": "sinchang <sinchangwen@gmail.com>",

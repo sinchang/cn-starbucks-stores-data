@@ -6,7 +6,7 @@ const pcs = require('./pc.json')
 const prettier = require('prettier')
 
 const APIURL =
-  'https://www.starbucks.com.cn/api/stores/nearby?lat=31.231706&lon=121.472644&limit=10000&locale=ZH&features=&radius=10000000000'
+  'https://www.starbucks.com.cn/api/stores'
 const result = {}
 const FixedCity = ['上海市', '天津市', '重庆市', '北京市', '香港', '澳門']
 const searchProvince = city => {
