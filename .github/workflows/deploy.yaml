@@ -1,7 +1,6 @@
-name: Build README and deploy Datasette
+name: Deploy Datasette
 
 on:
-  pull_request:
   push:
     branches:
     - master
@@ -31,7 +30,7 @@ jobs:
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install datasette@0.61.1
+        pip install datasette datasette-publish-vercel
     - name: Deploy Datasette using Vercel
       env:
         VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
