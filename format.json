@@ -5,7 +5,7 @@
     { "name": "广东省", "count": 808 },
     { "name": "江苏省", "count": 749 },
     { "name": "北京市", "count": 458 },
-    { "name": "四川省", "count": 241 },
+    { "name": "四川省", "count": 242 },
     { "name": "湖北省", "count": 187 },
     { "name": "福建省", "count": 180 },
     { "name": "山东省", "count": 163 },
@@ -19,7 +19,7 @@
     { "name": "广西壮族自治区", "count": 68 },
     { "name": "河南省", "count": 66 },
     { "name": "云南省", "count": 59 },
-    { "name": "江西省", "count": 39 },
+    { "name": "江西省", "count": 40 },
     { "name": "海南省", "count": 39 },
     { "name": "吉林省", "count": 39 },
     { "name": "贵州省", "count": 34 },
@@ -30,5 +30,5 @@
     { "name": "宁夏回族自治区", "count": 8 },
     { "name": "青海省", "count": 5 }
   ],
-  "total": 5739
+  "total": 5741
 }
