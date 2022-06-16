@@ -16,7 +16,7 @@
 https://www.starbucks.com.cn/api/stores
 ```
 
-### Query Data
+## Query Data
 
 You can do that on https://cn-starbucks.vercel.app
 
