@@ -6,7 +6,7 @@
     { "name": "江苏省", "count": 753 },
     { "name": "北京市", "count": 459 },
     { "name": "四川省", "count": 242 },
-    { "name": "湖北省", "count": 187 },
+    { "name": "湖北省", "count": 188 },
     { "name": "福建省", "count": 181 },
     { "name": "山东省", "count": 164 },
     { "name": "天津市", "count": 143 },
@@ -30,5 +30,5 @@
     { "name": "宁夏回族自治区", "count": 8 },
     { "name": "青海省", "count": 5 }
   ],
-  "total": 5772
+  "total": 5773
 }
