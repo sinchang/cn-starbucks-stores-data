@@ -19,8 +19,8 @@
     { "name": "广西壮族自治区", "count": 67 },
     { "name": "河南省", "count": 67 },
     { "name": "云南省", "count": 59 },
+    { "name": "江西省", "count": 41 },
     { "name": "吉林省", "count": 41 },
-    { "name": "江西省", "count": 40 },
     { "name": "海南省", "count": 40 },
     { "name": "贵州省", "count": 34 },
     { "name": "山西省", "count": 31 },
@@ -30,5 +30,5 @@
     { "name": "宁夏回族自治区", "count": 8 },
     { "name": "青海省", "count": 6 }
   ],
-  "total": 5835
+  "total": 5836
 }
