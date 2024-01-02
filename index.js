@@ -17,16 +17,19 @@ const searchProvince = city => {
   if (city === 'Beijing') return '北京市'
   if (city === 'Yangzhou' || city === 'Suzhou' || city === 'Nantong' || city === 'Wuxi' || city === 'Nanjing') return '江苏省'
   if (city === 'Hangzhou' || city === 'Jinhua' || city === 'Huzhou' || city === 'TBD' || city === 'Ningbo') return '浙江省'
-  if (city === '襄樊市' || city === 'Wuhan') return '湖北省'
+  if (city === '襄樊市' || city === 'Wuhan' || city === '恩施市') return '湖北省'
   if (city === 'Guangzhou' || city === 'Shenzhen') return '广东省'
   if (city === 'Tin Shui Wai') return '黑龙江省'
   if (city === '延吉市') return '吉林省'
   if (city === 'Chengdu City' || city === '西昌市' || city === 'Luzhou' || city === 'Chengdu' || city === 'Nanchong' || city === 'Panzhihua') return '四川省'
-  if (city === '大理市' || city === '景洪市') return '云南省'
+  if (city === '大理市' || city === '景洪市' || city === '文山市' || city === '楚雄市' || city === '蒙自市') return '云南省'
   if (city === 'Jinan') return '山东省'
   if (city === 'Chongqing') return '重庆市'
   if (city === 'Anqing') return '安徽省'
   if (city === '海南省') return '海南省'
+  if (city === '吉首市') return '湖南省'
+  if (city === '乌兰浩特市' || city === '锡林浩特市') return '内蒙古自治区'
+  if (city === '兴义市' || city === '都匀市') return '贵州省'
 
   for (const k in pcs) {
     for (const x of pcs[k]) {
